@@ -1,0 +1,27 @@
+# Python virtual environment
+hw1/venv_hw1/
+lab02/venv_lab02/
+lab04/venv_lab04/
+rl_cartpole_test/venv_cartpole/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Zip files
+*.zip
+
+# Ignore environment variables
+.env
+
+# Ignore generated files from hw01
+hw1/output.out
+hw1/output1.out
+hw1/output2.out
+hw1/output3.out
+hw1/moving_average.pdf
+hw1/moving_average1.pdf
+hw1/moving_average_sarsa.pdf
