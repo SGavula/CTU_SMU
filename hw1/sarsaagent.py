@@ -20,7 +20,7 @@ class SarsaAgent(AbstractAgent):
     """
     def __init__(self, env: BlackjackEnv, number_of_episodes: int):
         super().__init__(env, number_of_episodes)
-        # Q_table structure: {(state): [action1, action2]} 
+        # Q_table structure: {(state1): [action1, action2], (state2): [action1, action2]} 
         self.Q_table = defaultdict(lambda: [0.0, 0.0]) # This automatically creates [0.0, 0.0] if a state is accessed for the first time
         self.Ns = defaultdict(int)
         self.epsilon = 0

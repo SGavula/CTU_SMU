@@ -1,5 +1,6 @@
 # Python virtual environment
 hw1/venv_hw1/
+hw2/venv_hw2/
 lab02/venv_lab02/
 lab04/venv_lab04/
 rl_cartpole_test/venv_cartpole/
@@ -25,3 +26,9 @@ hw1/output3.out
 hw1/moving_average.pdf
 hw1/moving_average1.pdf
 hw1/moving_average_sarsa.pdf
+
+# Ignore data file in hw2
+hw2/data
+
+# Ignore test file in hw2
+hw2/test.ipynb
